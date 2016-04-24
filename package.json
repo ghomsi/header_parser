@@ -1,13 +1,28 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "name": "header-parser-r282",
+  "version": "1.0.2",
+  "description": "Lets you get the IP, language and OS for the browser making the request.",
   "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghomsi/header-parser.git"
+  },
+  "keywords": [
+    "API",
+    "Rafase282",
+    "IP",
+    "Header"
+  ],
+  "author": "Ghomsi (ghomsi) Adrien",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ghomsi/header-parser/issues"
+  },
+  "homepage": "https://github.com/ghomsi/header-parser#readme",
   "dependencies": {
-    "async": "~0.2.8",
-    "express": "~3.2.4",
-    "socket.io": "~0.9.14"
+    "express": "^4.13.3"
   }
 }
